@@ -1,0 +1,8 @@
+{
+  "name": "nh/testextension",
+  "autoload": {
+    "psr-4": {
+      "NH\\Testextension\\": "Classes/"
+    }
+  }
+}

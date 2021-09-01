@@ -1,0 +1,7 @@
+<f:form action="create" name="leaveCollection">
+    <f:for each="{leaves}" as="leave">
+        <label>{leave.name}</label>
+        <f:form.checkbox name="leaveCollection[leaves][]" value="{leave.uid}"/>
+    </f:for>
+    <f:form.submit name="submit" value="Submit"/>
+</f:form>
